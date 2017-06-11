@@ -1,0 +1,22 @@
+  780  sudo apt-get install vsftpd
+  788  ll
+  789  vim /etc/vsftpd.conf
+  792  ll
+  793  sudo vim /etc/vsftpd.conf
+  794  sudo passwd ftp
+  795  mkdir sudo mkdir /home/ftp
+  796  cd ~
+  797  ll
+  798  mkdir sudo mkdir /home/ftp
+  799  mkdir sudo mkdir ~/ftp
+  800  sudo mkdir /home/ftp
+  801  sudo chmod 777 /home/ftp
+  802  sudo vim /etc/vsftpd.conf
+  803  sudo service vsftpd restart
+  806  sudo cp serverguide.pdf /home/ftp/
+  807  ifconfig
+  808  ftp 192.168.0.107
+  809  sudo /etc/vsftpd.chroot_list
+  810  sudo vim /etc/vsftpd.chroot_list
+  811  ftp 192.168.0.107
+
